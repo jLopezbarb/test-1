@@ -1,0 +1,7 @@
+deploy:
+  - echo hola
+dependencies:
+  postgresql:
+    repository: https://github.com/okteto/sgo-getting-started
+    wait: true
+    # namespace: integration-jlopezbarb[D
